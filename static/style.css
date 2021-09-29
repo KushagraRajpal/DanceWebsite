@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap"); 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Glory', sans-serif;
+}
+body{
+    height: 100%;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: -3.8rem -0.5rem;
+    padding-right: 1rem;
+}
+#logo img{
+    height: 2rem;
+    filter: invert(1);
+}
+#logo p{
+    color: white;
+    padding: 1.8rem;
+    font-weight: bold;
+}
+
+#navbar{
+    background-color: black;
+    padding: 1.2rem 2rem;
+    height: 3.7rem;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin: 10x; */
+}
+#navbar li{
+    
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 1.4rem 2.2rem;
+    font-weight: bold;
+    color: white;
+    font-size: 1.3rem;
+    
+} 
+#navbar li a:hover{
+    color: grey;
+    text-decoration: solid;
+}
+#introSections{
+    padding-bottom: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url('/static/bg.jpg');
+    z-index: -1;
+    opacity: 0.87;
+    font-size: 2.6rem;
+    height: 22rem;
+    background-color: red;
+    font-weight: bold ;
+}
+#introSections div.small{
+    font-size: 2rem;
+    padding: 0.6rem;
+}
+#missionSection{
+    height: 21rem;
+    background-color: white;
+    
+}
+#missionSection h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.1rem;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 30%;
+    margin: 1rem 1.4rem;
+    height: 14rem;
+    background-color: #f0f0f0;
+    justify-items: center;
+    align-items: center;
+}
+.card h3{
+    text-align: center;
+    margin: 1rem;
+    margin-top: 0.7rem;
+    font-size: 2rem;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 7rem;
+    padding: 0.5rem ;
+    margin: 6px 21px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/* #1{
+    padding-right: 26px;
+    padding-bottom: 50px;
+} */
+#sponsorsSection{
+    height: 20rem;
+    background-color: #f8bdbd;
+}
+#sponsorsSection h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.1rem;
+}
+#sponsors{
+    display: flex;
+    flex-direction: row;
+    height: 13rem;
+    max-width: 20rem;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.spImage{
+    height: 60%;
+    margin: 3rem;
+}
+#footer{
+    display: flex;
+    height: 4rem;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}

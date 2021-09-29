@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+  script(src="../static/script.js")   
+
+block style
+    style 
+        include ../static/style.css 
+block content 
+    section#introSections
+        div  welcome to kushagra's dance academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection 
+        h2 Our Misssion           
+        div.card 
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src='../static/dance1.png')
+                div.card-content    
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src='../static/logo.png')
+                div.card-content    
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src='../static/dance3.png')
+                div.card-content    
+                    p This is the best dance academy of the universe
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+            img(src='../static/apple.png', alt ='Sponsor Image', class = 'spImage')
+            img(src='../static/hp.png', alt ='Sponsor Image', class = 'spImage')
+            img(src='../static/skype.png', alt ='Sponsor Image', class = 'spImage')
+            img(src='../static/microsoft.png', alt ='Sponsor Image', class = 'spImage')
